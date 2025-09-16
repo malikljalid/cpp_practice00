@@ -31,7 +31,6 @@ int main(void)
     std::cout << "*    *\n";
     std::cout << "*    *\n";
     
-    std::cout << "\nZakaria is LEARNING QUICKLY Slaay !!!!\n";
 
     return (0);
 }
