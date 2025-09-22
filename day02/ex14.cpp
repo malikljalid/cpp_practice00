@@ -6,10 +6,12 @@ int main(void)
     int B;
     int tmp;
 
-    A = 13;
-    B = 20;
+    std::cout << "Please insert a number A : ";
+    std::cin >> A;
+    std::cout << "Please insert a number B : ";
+    std::cin >> B;
 
-    std::cout << "Before : \n";
+    std::cout << "\nBefore : \n";
     std::cout << "A = " << A << std::endl;
     std::cout << "B = " << B << std::endl;
 
