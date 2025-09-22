@@ -2,15 +2,15 @@
 
 int main(void)
 {
-    int a, b;
-    int Area;
+    int a, h;
+    float Area;
 
-    std::cout << "Please insert A :";
+    std::cout << "Inserte a : ";
     std::cin >> a;
-    std::cout << "Please insert b :";
-    std::cin >> b;
+    std::cout << "Inserte h : ";
+    std::cin >> h;
 
-    Area = a * b;
+    Area = (a / 2) * h;
     std::cout << "Area = " << Area << std::endl;
     return (0);
 }
