@@ -10,12 +10,12 @@ int main(void)
     std::cout << "Please enter a number B : ";
     std::cin >> B;
 
-    std::cout << A << " == " << B << " ? --> " << (A == B) << '\n';
-    std::cout << A << " != " << B << " ? --> " << (A != B) << '\n';
-    std::cout << A << "  > " << B << " ? --> " << (A  > B) << '\n';
-    std::cout << A << "  < " << B << " ? --> " << (A  < B) << '\n';
-    std::cout << A << " >= " << B << " ? --> " << (A >= B) << '\n';
-    std::cout << A << " <= " << B << " ? --> " << (A <= B) << '\n';
+    std::cout << A << " == " << B << " is " << (A == B) << '\n';
+    std::cout << A << " != " << B << " is " << (A != B) << '\n';
+    std::cout << A << "  > " << B << " is " << (A  > B) << '\n';
+    std::cout << A << "  < " << B << " is " << (A  < B) << '\n';
+    std::cout << A << " >= " << B << " is " << (A >= B) << '\n';
+    std::cout << A << " <= " << B << " is " << (A <= B) << '\n';
 
     return (0);
 }
