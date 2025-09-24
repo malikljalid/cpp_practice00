@@ -4,7 +4,7 @@
 int main(void)
 {
     int a, d;
-    int Area;
+    float Area;
 
     std::cout << "Please enter a : ";
     std::cin >> a;
