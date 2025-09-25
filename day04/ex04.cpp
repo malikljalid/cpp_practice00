@@ -19,6 +19,7 @@ int main(void)
     std::cout << "Length of string1 : " << string1.length() << '\n';
     std::cout << "Characters at 0,2,4,7 are : " << string1[0] << ' ' << string1[2] << ' ' << string1[4] << ' ' << string1[7] << '\n';
     std::cout << "Concatenating string2 and string3 : " << string2 + string3 << '\n';
-    std::cout << stoi(string2) << " * " << stoi(string3) << " = " << stoi(string2) * stoi(string3) << '\n';
+    int Result = stoi(string2) * stoi(string3);
+    std::cout << string2 << " * " << string3 << " = " << Result << '\n';
     return (0);
 }
