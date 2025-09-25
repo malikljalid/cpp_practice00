@@ -9,9 +9,9 @@ int main(void)
     float       floatNum;
     double      doubleNum;
 
-    intNum = stoi(Number);
-    floatNum = stof(Number);
-    doubleNum = stod(Number);
+    intNum = std::stoi(Number);
+    floatNum = std::stof(Number);
+    doubleNum = std::stod(Number);
 
     std::cout << "int Number = " << intNum << '\n';
     std::cout << "float Number = " << floatNum << '\n';
