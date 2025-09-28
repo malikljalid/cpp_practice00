@@ -19,5 +19,13 @@ int main(void)
     std::cout << arr[0] << ' ';    //prints first index element : 3
     std::cout << arr[1] << ' ';    //prints second index element: 7
     std::cout << arr[3] << '\n';   //prints 3rd index element   : 13
+
+    double array[2];
+
+    array[0] = 42.00;
+    array[1] = 13.01;
+    // array[2] = 38.99;  <-- ERROR : this is will produce wrong data
     
+    std::cout << array[0] << '\n';
+    std::cout << array[1] << '\n';
 }
