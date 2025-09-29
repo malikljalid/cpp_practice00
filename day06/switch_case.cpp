@@ -27,7 +27,7 @@ int main(void)
         case (7) :
             std::cout << "it's Saturday!\n";
             break;
-        default :
+        default :  //  this one is optional, in case everything above failed
             std::cout << "invalid day!\n";
     }
     return (0);
