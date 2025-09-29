@@ -1,6 +1,6 @@
 #include <iostream>
 
-enum enCountry { MOROCCO = 10, EGYPT = 20, ALGERIA = 30, TUNSIA = 50, NEGERIA = 60, SOUTHAFRICA = 70 };
+enum enCountry { MOROCCO = 10, EGYPT = 20, ALGERIA = 30, TUNSIA = 50, NEGERIA = 60, SOUTHAFRICA = 70, UNKNOWN = 100 };
 
 struct stCountry
 {
@@ -40,12 +40,23 @@ void setCountryID(stCountry &Country)
     {
         Country.ID = enCountry::SOUTHAFRICA;
     }
+    else
+    {
+        Country.ID = enCountry::UNKNOWN;
+    }
 }
 
 void showCountryID(stCountry &Country)
 {
     setCountryID(Country);
-    std::cout << "Your Country ID is : " << Country.ID << std::endl;
+    if (Country.ID == enCountry::UNKNOWN)
+    {
+        std::cout << "Your country DOES NOT exist in list!\n";
+    }
+    else
+    {
+        std::cout << "Your Country ID is : " << Country.ID << std::endl;
+    }
 }
 
 void showCountriesMenu(void)
