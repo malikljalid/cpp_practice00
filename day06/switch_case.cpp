@@ -4,11 +4,11 @@ int main(void)
 {
     int day = 4;
 
-    switch (day)
+    switch (day)  // switch case go imediatly to the exact value matched not like if statement
     {
         case (1) :
             std::cout << "it's Sunday!\n";
-            break;
+            break;  // we shold do breaks of block to ensure not continuing executing the rest cases
         case (2) :
             std::cout << "it's Monday!\n";
             break;
