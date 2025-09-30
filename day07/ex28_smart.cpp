@@ -13,7 +13,7 @@ void readInput(stInput &Input)
     Input.Sum = 0;
 }
 
-void  printSumOfNumberFrom1toN(stInput &Input)
+void  printSumOfOddNumberFrom1toN(stInput &Input)
 {
     for (int i = 1; i <= Input.N ; i++)
     {
@@ -30,7 +30,7 @@ int main(void)
     stInput Input;
 
     readInput(Input);
-    printSumOfNumberFrom1toN(Input);
+    printSumOfOddNumberFrom1toN(Input);
 
     return (0);
 }
