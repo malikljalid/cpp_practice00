@@ -13,7 +13,7 @@ void printFromNTo1(int N)
     while (i >= 1)
     {
         std::cout << i << '\n';
-        i++;
+        i--;
     }
 }
 
