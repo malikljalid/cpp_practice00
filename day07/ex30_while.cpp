@@ -18,6 +18,12 @@ void readNumber(int &N)
 {
     std::cout << "Please enter a number : ";
     std::cin >> N;
+
+    while (N < 0)
+    {
+        std::cout << "\nNegative number!\nPlease enter a postive number : ";
+        std::cin >> N;
+    }
 }
 
 int main(void)
