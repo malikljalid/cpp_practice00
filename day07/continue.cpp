@@ -10,6 +10,7 @@ int main(void)
             std::cout << "No Hello for ME\n\n";
             continue ;
         }
+        //continue : help skip upcoming next code after checking for that current iteration
         std::cout << "Hello\n";
         std::cout << "Hello\n";
         std::cout << "Hello\n\n";
