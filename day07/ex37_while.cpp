@@ -9,6 +9,7 @@ int sumUntil99(void)
     {
         std::cout << "Please enter a number : ";
         std::cin >> Number;
+
         if (Number != 99)
         {
             Sum += Number;
